@@ -1,9 +1,12 @@
 import React from 'react';
+import Intro from './intro/Intro';
+import MarketStrat from './marketstrat/MarketStrat';
 
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+          <Intro></Intro>
+          <MarketStrat></MarketStrat>
         </div>
     );
 };

@@ -10,7 +10,7 @@ import NoFound from "./components/4o4/NoFound";
 function App() {
   return (
     <div className="App">
-      <h1>this is app!!</h1>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/*" element={<NoFound />} />
       </Routes>
-      <Header></Header>
+      {/* <Header></Header> */}
     </div>
   );
 }
