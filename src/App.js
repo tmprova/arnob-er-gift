@@ -18,7 +18,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/*" element={<NoFound />} />
       </Routes>
-      {/* <Header></Header> */}
+      <Header></Header>
     </div>
   );
 }

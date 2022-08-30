@@ -9,6 +9,7 @@ const CustomLink = ({ children, to, ...props }) => {
       <Link style={{ color: match ? '#0991B1' : 'black' }} to={to} {...props}>
         {children}
       </Link>
+      {match && " (active)"}
     </div>
   )
 }
