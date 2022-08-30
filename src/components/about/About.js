@@ -1,11 +1,14 @@
 import React from 'react';
+import Expertise from './expertise/Expertise';
+import Intro from './intro/Intro';
+import OurServices from './services/OurServices';
 
 const About = () => {
     return (
         <div>
-            <h1>
-                this is about
-            </h1>
+          {/* <Intro/> */}
+          <Expertise/>
+          <OurServices></OurServices>
         </div>
     );
 };

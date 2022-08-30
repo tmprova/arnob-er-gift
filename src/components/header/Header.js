@@ -5,11 +5,11 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     // px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8
   return (
-    <div class="bg-gray-100 m-20 p-5">
-      <div class="px-4 py-5 content-between w-50">
-        <div class="relative flex items-center justify-between">
+    <div className="bg-gray-100 m-20 p-5">
+      <div className="px-4 py-5 content-between w-50">
+        <div className="relative flex items-center justify-between">
           
-          <ul class="flex items-center space-x-8">
+          <ul className="flex items-center space-x-8">
             <li>
              <CustomLink to='/'><div>Home</div></CustomLink>
             </li>
